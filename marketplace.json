@@ -2,8 +2,8 @@
   "label": "Kitchen Sink",
   "category_label": "Extensions",
   "branding": {
-    "image_uri": "https://marketplace-api.looker.com/block-icons/hubspot_icon.png",
-    "tagline": "This Block provides a comprehensive overview of all Hubspot Marketing functions, including email campaign performance, contact list changes and subscription growth."
+    "image_uri": "https://www.scullinsteel.com/scullinsteel.jpg",
+    "tagline": "We're Doomed."
   },
   "models": [
     {
