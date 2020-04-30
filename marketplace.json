@@ -1,0 +1,21 @@
+{
+  "label": "Kitchen Sink",
+  "category_label": "Extensions",
+  "branding": {
+    "image_uri": "https://marketplace-api.looker.com/block-icons/hubspot_icon.png",
+    "tagline": "This Block provides a comprehensive overview of all Hubspot Marketing functions, including email campaign performance, contact list changes and subscription growth."
+  },
+  "models": [
+    {
+      "name": "kitchen_sink",
+      "connection_constant": "CONNECTION_NAME"
+    }
+  ],
+  "user_attributes": [
+    {
+      "locale": {
+        "label": "User Locale"
+      }
+    }
+  ]
+}
