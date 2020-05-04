@@ -1,3 +1,8 @@
+constant: CONNECTION_NAME {
+  value: "connection"
+  export: override_required
+}
+
 application: kitchen_sink {
   label: "Kitchen Sink"
   url: "http://localhost:8080/bundle.js"

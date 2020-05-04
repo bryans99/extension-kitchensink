@@ -11,6 +11,13 @@
       "connection_constant": "CONNECTION_NAME"
     }
   ],
+  "constants": [
+    {
+      "connection": {
+        "label": "Connection"
+      }
+    },
+  ],
   "user_attributes": [
     {
       "locale": {
