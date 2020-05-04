@@ -11,32 +11,25 @@
       "connection_constant": "CONNECTION_NAME"
     }
   ],
-  "constants": [
-    {
-      "connection": {
-        "label": "Connection"
-      }
+  "constants": {
+    "CONNECTION_NAME": {
+      "label": "Connection Name",
+      "value_constraint": "connection"
     }
-  ],
-  "user_attributes": [
-    {
-      "locale": {
-        "label": "User Locale"
-      }
+  },
+  "user_attributes": {
+    "locale": {
+      "label": "User Locale"
     },
-    {
-      "foo": {
-        "label": "Foo Value",
-        "description": "Extension user attribute 1"
-      }
+    "foo": {
+      "label": "Foo Value",
+      "description": "Extension user attribute 1"
     },
-    {
-      "bar": {
-        "label": "Bar Value",
-        "type": "yesno",
-        "default_value": "yes",
-        "description": "Extension user attribute 2"
-      }
+    "bar": {
+      "label": "Bar Value",
+      "type": "yesno",
+      "default_value": "yes",
+      "description": "Extension user attribute 2"
     }
-  ]
+  }
 }
