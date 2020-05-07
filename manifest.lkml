@@ -15,7 +15,7 @@ application: kitchen_sink {
     core_api_methods: ["all_connections", "search_folders"]
     user_attributes: [
       "locale",
-      "kitchen_sink__foo"],
-      "kitchen_sink__bar"],
+      "marketplace_scullinsteel_kitchensink__foo"],
+      "marketplace_scullinsteel_kitchensink__bar"],
   }
 }
