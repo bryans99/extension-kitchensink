@@ -16,6 +16,6 @@ application: kitchen_sink {
     user_attributes: [
       "locale",
       "marketplace_scullinsteel_kitchensink__foo"],
-      "marketplace_scullinsteel_kitchensink__bar"],
+      "marketplace_scullinsteel_kitchensink__bar"]
   }
 }
