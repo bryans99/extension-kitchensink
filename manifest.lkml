@@ -1,5 +1,3 @@
-project_name: "marketplace_scullinsteel_kitchensink"
-
 constant: CONNECTION_NAME {
   value: "connection"
   export: override_required
