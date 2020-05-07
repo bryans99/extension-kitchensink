@@ -21,12 +21,12 @@
     "locale": {
       "label": "User Locale"
     },
-    "foo": {
-      "label": "Foo Value",
+    "marketplace_scullinsteel_kitchensink__foo": {
+      "label": "Kitchen Sink Foo Value",
       "type": "string"
     },
-    "bar": {
-      "label": "Bar Value",
+    "marketplace_scullinsteel_kitchensink__bar": {
+      "label": "Kitchen Sink Bar Value",
       "type": "yesno",
       "default_value": "yes"
     }

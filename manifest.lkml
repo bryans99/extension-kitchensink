@@ -1,3 +1,5 @@
+project_name: "marketplace_scullinsteel_kitchensink"
+
 constant: CONNECTION_NAME {
   value: "connection"
   export: override_required
@@ -11,6 +13,9 @@ application: kitchen_sink {
     navigation: yes
     new_window: yes
     core_api_methods: ["all_connections", "search_folders"]
-    user_attributes: ["locale", "foo"]
+    user_attributes: [
+      "locale",
+      "kitchen_sink__foo"],
+      "kitchen_sink__bar"],
   }
 }
