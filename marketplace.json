@@ -22,7 +22,8 @@
       "label": "User Locale"
     },
     "foo": {
-      "label": "Foo Value"
+      "label": "Foo Value",
+      "type": "string"
     },
     "bar": {
       "label": "Bar Value",
