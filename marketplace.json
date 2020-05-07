@@ -22,14 +22,12 @@
       "label": "User Locale"
     },
     "foo": {
-      "label": "Foo Value",
-      "description": "Extension user attribute 1"
+      "label": "Foo Value"
     },
     "bar": {
       "label": "Bar Value",
       "type": "yesno",
-      "default_value": "yes",
-      "description": "Extension user attribute 2"
+      "default_value": "yes"
     }
   }
 }
