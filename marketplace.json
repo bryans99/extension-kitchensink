@@ -7,12 +7,13 @@
   },
   "models": [
     {
-      "name": "kitchen_sink",
+      "name": "kitchensink",
       "connection_constant": "CONNECTION_NAME"
     }
   ],
   "constants": {
     "CONNECTION_NAME": {
+      "description": "Connection Description",
       "label": "Connection Name",
       "value_constraint": "connection"
     }
@@ -21,11 +22,11 @@
     "locale": {
       "label": "User Locale"
     },
-    "marketplace_scullinsteel_kitchensink__foo": {
+    "marketplace_scullinsteel_kitchensink_kitchensink_foo": {
       "label": "Kitchen Sink Foo Value",
       "type": "string"
     },
-    "marketplace_scullinsteel_kitchensink__bar": {
+    "marketplace_scullinsteel_kitchensink_kitchensink_bar": {
       "label": "Kitchen Sink Bar Value",
       "type": "yesno",
       "default_value": "yes"

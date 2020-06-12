@@ -5,7 +5,7 @@ constant: CONNECTION_NAME {
   export: override_required
 }
 
-application: kitchen_sink {
+application: kitchensink {
   label: "Kitchen Sink"
   url: "http://localhost:8080/bundle.js"
   entitlements: {
@@ -15,8 +15,8 @@ application: kitchen_sink {
     core_api_methods: ["all_connections", "search_folders"]
     user_attributes: [
       "locale",
-      "marketplace_scullinsteel_kitchensink__foo",
-      "marketplace_scullinsteel_kitchensink__bar"
+      "marketplace_scullinsteel_kitchensink_kitchensink_foo",
+      "marketplace_scullinsteel_kitchensink_kitchensink_bar"
     ]
   }
 }
