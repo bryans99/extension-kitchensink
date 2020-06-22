@@ -30,6 +30,13 @@
       "label": "Kitchen Sink Bar Value",
       "type": "yesno",
       "default_value": "yes"
+    },
+    "marketplace_scullinsteel_kitchensink_kitchensink_secret": {
+      "label": "Kitchen Sink Secret Value",
+      "type": "string",
+      "default_value": "",
+      "value_is_hidden": true,
+      "hidden_value_domain_whitelist": "self-signed.looker.com:9999"
     }
   }
 }
