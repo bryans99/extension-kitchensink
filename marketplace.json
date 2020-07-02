@@ -35,6 +35,7 @@
       "label": "Kitchen Sink Secret Value",
       "type": "string",
       "default_value": "",
+      "required": true,
       "value_is_hidden": true,
       "hidden_value_domain_whitelist": "self-signed.looker.com:9999"
     }
