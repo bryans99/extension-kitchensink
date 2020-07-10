@@ -1,13 +1,14 @@
-project_name: "marketplace_scullinsteel_kitchensink"
+project_name: "extension_kitchensink"
 
 constant: CONNECTION_NAME {
   value: "connection"
   export: override_required
 }
 
-application: kitchensink {
+application: extension-kitchensink {
   label: "Kitchen Sink"
-  url: "http://localhost:8080/bundle.js"
+  # url: "http://localhost:8080/bundle.js"
+  file: "bundle.js"
   entitlements: {
     local_storage: yes
     navigation: yes
