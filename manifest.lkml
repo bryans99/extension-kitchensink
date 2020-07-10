@@ -16,9 +16,9 @@ application: extension-kitchensink {
     core_api_methods: ["all_connections", "search_folders"]
     user_attributes: [
       "locale",
-      "marketplace_scullinsteel_kitchensink_kitchensink_foo",
-      "marketplace_scullinsteel_kitchensink_kitchensink_bar",
-      "marketplace_scullinsteel_kitchensink_kitchensink_secret"
+      "marketplace_extension_kitchensink_kitchensink_foo",
+      "marketplace_extension_kitchensink_kitchensink_bar",
+      "marketplace_extension_kitchensink_kitchensink_secret"
     ]
   }
 }
