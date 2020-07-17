@@ -20,7 +20,8 @@ application: extension-kitchensink {
     scoped_user_attributes: [
       "foo",
       "bar",
-      "secret"
+      "secret",
+      "custom_secret_key"
     ]
   }
 }

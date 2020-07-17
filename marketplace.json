@@ -41,5 +41,13 @@
       "value_is_hidden": true,
       "hidden_value_domain_whitelist": "self-signed.looker.com:9999"
     }
+    "custom_secret_key": {
+      "label": "Access key for external api custom signin",
+      "type": "string",
+      "default_value": "",
+      "required": true,
+      "value_is_hidden": true,
+      "hidden_value_domain_whitelist": "http://127.0.0.1:3000/*"
+    }
   }
 }
