@@ -14,11 +14,13 @@ application: extension-kitchensink {
     navigation: yes
     new_window: yes
     core_api_methods: ["all_connections", "search_folders"]
-    user_attributes: [
-      "locale",
-      "marketplace_extension_kitchensink_extension_kitchensink_foo",
-      "marketplace_extension_kitchensink_extension_kitchensink_bar",
-      "marketplace_extension_kitchensink_extension_kitchensink_secret"
+    global_user_attributes: [
+      "locale"
+    ]
+    scoped_user_attributes: [
+      "foo",
+      "bar",
+      "secret"
     ]
   }
 }
